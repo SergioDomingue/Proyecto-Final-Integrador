@@ -1,0 +1,132 @@
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+header img {
+    width: 150px;
+}
+
+.fotoPerfil {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.fotoPerfil img {
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+
+.tituloHeader {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+.h2Header {
+    text-align: center;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+.contacto {
+    background-color: #999;
+    text-align: left;
+    color: #000;
+    /* padding: 15px 2rem; */
+    width: 30%;
+    height: 20rem;
+    min-width: 30%;
+
+}
+
+.contacto h3 {
+    text-align: center;
+    padding: 5.5px;
+    border: 9px solid #333333;
+    color: #fff;
+    background-color: #333;
+}
+
+.contactoInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 85%;
+    border: 10px solid #333333;
+    border-top: transparent;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    overflow: hidden;
+}
+
+.barraNavegacion {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    font-size: large;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #111111;
+}
+
+.info {
+    display: flex;
+    padding-top: 5px;
+    padding-left: 12px;
+}
+
+#sobreMi {
+    display: flex;
+    flex-direction: column;
+}
+
+#sobreMi h3{
+    font-size: 2rem;
+}
+
+#estudios {
+    display: none;
+    flex-direction: column;
+}
+
+#estudios h3{
+    font-size: 2rem;
+}
+
+#experiencias {
+    display: none;
+    flex-direction: column;
+}
+
+#experiencias h3{
+    font-size: 2rem;
+}
